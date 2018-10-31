@@ -22,12 +22,11 @@ use Apisearch\Model\Index;
 use Apisearch\Model\IndexUUID;
 use Apisearch\Model\Token;
 use Apisearch\Model\TokenUUID;
-use Apisearch\Repository\WithRepositoryReference;
 
 /**
  * Class AppRepository.
  */
-interface AppRepository extends WithRepositoryReference
+interface AppRepository extends WithAppRepositoryReference
 {
     /**
      * Add token.

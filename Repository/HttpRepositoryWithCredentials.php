@@ -13,9 +13,10 @@
 
 declare(strict_types=1);
 
-namespace Apisearch\Http;
+namespace Apisearch\Repository;
 
-use Apisearch\Repository\RepositoryWithCredentials;
+use Apisearch\Http\HttpClient;
+use Apisearch\Http\HttpResponsesToException;
 
 /**
  * Class HttpRepositoryWithCredentials.

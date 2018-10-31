@@ -28,7 +28,7 @@ use Apisearch\Model\TokenUUID;
 /**
  * Class MockAppRepository.
  */
-class MockAppRepository extends HttpRepositoryWithCredentials implements AppRepository
+class MockAppRepository extends HttpAppRepositoryWithCredentials implements AppRepository
 {
     /**
      * Add token.

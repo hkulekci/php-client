@@ -19,7 +19,6 @@ use Apisearch\Config\Config;
 use Apisearch\Exception\ResourceExistsException;
 use Apisearch\Exception\ResourceNotAvailableException;
 use Apisearch\Http\Http;
-use Apisearch\Http\HttpRepositoryWithCredentials;
 use Apisearch\Model\Index;
 use Apisearch\Model\IndexUUID;
 use Apisearch\Model\Token;
@@ -28,7 +27,7 @@ use Apisearch\Model\TokenUUID;
 /**
  * Class HttpAppRepository.
  */
-class HttpAppRepository extends HttpRepositoryWithCredentials implements AppRepository
+class HttpAppRepository extends HttpAppRepositoryWithCredentials implements AppRepository
 {
     /**
      * Add token.

@@ -23,12 +23,11 @@ use Apisearch\Model\Index;
 use Apisearch\Model\IndexUUID;
 use Apisearch\Model\Token;
 use Apisearch\Model\TokenUUID;
-use Apisearch\Repository\RepositoryWithCredentials;
 
 /**
  * Class InMemoryAppRepository.
  */
-class InMemoryAppRepository extends RepositoryWithCredentials implements AppRepository
+class InMemoryAppRepository extends AppRepositoryWithCredentials implements AppRepository
 {
     /**
      * @var array
